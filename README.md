@@ -26,7 +26,7 @@ Streams are defined in 'RxStreams' field as comma-separated values. Every stream
 timeout settings which is defined by convention 'RxStreamTimer*STREAMNAME*'. 
 
 For example: *RxStreamTimerWebShop* for
-Stream named *WebShop*. If a stream has no explicit timeout set then the RxStreamTimerDefault will be used.
+Stream named *WebShop*. If a stream has no explicit timeout set then the *RxStreamTimerDefault* will be used.
 
 To be informed about disconnected clients (that is, clients who are not sending heartbeats within an expected time frame) you
 can set up an SMTP mail-server to deliver warning notices.
