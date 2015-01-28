@@ -12,7 +12,7 @@ Every heartbeat entry gets inserted into the table *Heartbeat* and can be receiv
 
 For example to receive all Heartbeats: <a href="#">http://localhost:81/odata/Heartbeats</a>
 
-<img src="http://i83.imgup.net/get_heartbb69d.png" />
+<img src="http://p56.imgup.net/get_heartb352f.png" />
 
 A "heartbeat" is just a simple JSON payload that describes the client and which Rx Stream it belongs to.
 Rx Streams are configured via the Azure WebRole settings. There's also an option to configure the WebApp
