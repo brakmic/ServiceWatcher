@@ -14,7 +14,7 @@
       <Setting name="RxStreamTimerDefault" value="10" />
       <Setting name="RxStreamTimerWebShop" value="15" />
       <Setting name="RxStreamTimerAccounting" value="20" />
-      <Setting name="Setting1" value="" />
+      <Setting name="RxStreamTimerControlling" value="30" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

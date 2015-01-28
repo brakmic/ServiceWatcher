@@ -26,7 +26,7 @@
       <Setting name="RxStreamTimerDefault" />
       <Setting name="RxStreamTimerWebShop" />
       <Setting name="RxStreamTimerAccounting" />
-      <Setting name="Setting1" />
+      <Setting name="RxStreamTimerControlling" />
     </ConfigurationSettings>
   </WebRole>
 </ServiceDefinition>
