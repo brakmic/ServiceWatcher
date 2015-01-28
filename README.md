@@ -4,7 +4,13 @@ Service Watcher based on <a href="https://github.com/Reactive-Extensions/Rx.NET"
 
 The code part that deals with Rx Observables is based on <a href="http://www.zerobugbuild.com/?p=230" target="_blank">this blog entry.</a>
 
-This solution runs in Azure Emulator and receives client heartbeats via POST-calls.
+This solution runs in Azure Emulator and receives client heartbeats via POST-requests.
+
+The ServiceWatcher utilizes a simple Database structure following the Code First workflow.
+
+Every heartbeat entry gets inserted into the table *Heartbeat* and can be received via GET.
+
+For example to receive all Heartbeats: http://localhost:81/odata/Heartbeats
 
 I recommend <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a> to send Heartbeat-Requests.
 
