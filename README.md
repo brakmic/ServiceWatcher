@@ -14,7 +14,7 @@ A "heartbeat" is just a simple JSON payload that describes the client and which 
 Rx Streams are configured via the Azure WebRole settings. There's also an option to configure the WebApp
 to run as an ordinary IIS application. In this case you'd use the Web.conf settings. 
 
-*This is how the heartbeats are being logged in the Azure Emulator*
+*Heartbeats-Log in Azure Emulator*
 
 <img src="http://s75.imgup.net/azure_emul2fa8.png" />
 
