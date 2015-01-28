@@ -6,7 +6,7 @@ The code part that deals with Rx Observables is based on <a href="http://www.zer
 
 This solution runs in Azure Emulator and receives client heartbeats via POST-requests.
 
-The ServiceWatcher utilizes a simple Database structure following the Code First workflow.
+The ServiceWatcher utilizes a simple Database structure following the *Code First* workflow.
 
 Every heartbeat entry gets inserted into the table *Heartbeat* and can be received via GET.
 
@@ -14,13 +14,13 @@ For example to receive all Heartbeats: <a href="#">http://localhost:81/odata/Hea
 
 <img src="http://i83.imgup.net/get_heartbb69d.png" />
 
+A "heartbeat" is just a simple JSON payload that describes the client and which Rx Stream it belongs to.
+Rx Streams are configured via the Azure WebRole settings. There's also an option to configure the WebApp
+to run as an ordinary IIS application. In this case you'd use the *Web.config* settings.
+
 I recommend <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a> to send Heartbeat-Requests.
 
 <img src="http://r01.imgup.net/fiddler_po7053.png" />
-
-A "heartbeat" is just a simple JSON payload that describes the client and which Rx Stream it belongs to.
-Rx Streams are configured via the Azure WebRole settings. There's also an option to configure the WebApp
-to run as an ordinary IIS application. In this case you'd use the Web.conf settings. 
 
 *Heartbeats-Log in Azure Emulator*
 
