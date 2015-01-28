@@ -20,7 +20,7 @@ to run as an ordinary IIS application. In this case you'd use the *Web.config* s
 
 I recommend <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a> to send Heartbeat-Requests.
 
-<img src="http://r01.imgup.net/fiddler_po7053.png" />
+<img src="http://o81.imgup.net/fiddler_pof8dd.png" />
 
 *Heartbeats-Log in Azure Emulator*
 
