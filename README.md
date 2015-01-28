@@ -30,7 +30,7 @@ I recommend <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a>
 
 <img src="http://w68.imgup.net/azure_conf566a.png" />
 
-Streams are defined in 'RxStreams' field as comma-separated values. Every stream has its own
+Streams are defined in the *RxStreams* field as comma-separated values. Every stream has its own
 timeout settings which is defined by convention 'RxStreamTimer*STREAMNAME*'. 
 
 For example: *RxStreamTimerWebShop* for
