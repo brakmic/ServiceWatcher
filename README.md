@@ -10,7 +10,7 @@ The ServiceWatcher utilizes a simple Database structure following the Code First
 
 Every heartbeat entry gets inserted into the table *Heartbeat* and can be received via GET.
 
-For example to receive all Heartbeats: http://localhost:81/odata/Heartbeats
+For example to receive all Heartbeats: <a href="#">http://localhost:81/odata/Heartbeats</a>
 
 <img src="http://i83.imgup.net/get_heartbb69d.png" />
 
