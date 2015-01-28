@@ -12,6 +12,8 @@ Every heartbeat entry gets inserted into the table *Heartbeat* and can be receiv
 
 For example to receive all Heartbeats: http://localhost:81/odata/Heartbeats
 
+<img src="http://i83.imgup.net/get_heartbb69d.png" />
+
 I recommend <a href="http://www.telerik.com/fiddler" target="_blank">Fiddler</a> to send Heartbeat-Requests.
 
 <img src="http://r01.imgup.net/fiddler_po7053.png" />
