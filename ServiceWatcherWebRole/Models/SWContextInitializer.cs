@@ -9,7 +9,7 @@ namespace ServiceWatcherWebRole.Models
     /// <summary>
     /// Code first initialization
     /// </summary>
-    public class SWContextInitializer : DropCreateDatabaseIfModelChanges<SWContext>
+    public class SWContextInitializer : DropCreateDatabaseAlways<SWContext>
     {
         /// <summary>
         /// A few predefined service watcher entries
