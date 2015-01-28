@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="Advarics.WebApps.ServiceWatcher" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2014-06.2.4">
+  <WebRole name="ServiceWatcherWebRole" vmsize="Small">
+    <Sites>
+      <Site name="Web">
+        <Bindings>
+          <Binding name="Endpoint1" endpointName="Endpoint1" />
+        </Bindings>
+      </Site>
+    </Sites>
+    <Endpoints>
+      <InputEndpoint name="Endpoint1" protocol="http" port="80" />
+    </Endpoints>
+    <LocalResources>
+      <LocalStorage name="LocalStorage1" cleanOnRoleRecycle="true" />
+    </LocalResources>
+    <ConfigurationSettings>
+      <Setting name="SmtpServer" />
+      <Setting name="SmtpUser" />
+      <Setting name="SmtpPassword" />
+      <Setting name="SmtpSender" />
+      <Setting name="SmtpRecipients" />
+      <Setting name="SmtpEnableSsl" />
+      <Setting name="SmtpPort" />
+      <Setting name="RxStreams" />
+      <Setting name="RxStreamTimerDefault" />
+      <Setting name="RxStreamTimerWebShop" />
+      <Setting name="RxStreamTimerAccounting" />
+      <Setting name="Setting1" />
+    </ConfigurationSettings>
+  </WebRole>
+</ServiceDefinition>

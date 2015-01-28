@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="Advarics.WebApps.ServiceWatcher" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2014-06.2.4">
+  <Role name="ServiceWatcherWebRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="SmtpServer" value="YOUR SMTP SERVER" />
+      <Setting name="SmtpUser" value="YOUR SMTP USER" />
+      <Setting name="SmtpPassword" value="PASSWORD!!!" />
+      <Setting name="SmtpSender" value="MAIL SENDER" />
+      <Setting name="SmtpRecipients" value="" />
+      <Setting name="SmtpEnableSsl" value="true" />
+      <Setting name="SmtpPort" value="587" />
+      <Setting name="RxStreams" value="WebShop,Accounting,Controlling" />
+      <Setting name="RxStreamTimerDefault" value="10" />
+      <Setting name="RxStreamTimerWebShop" value="15" />
+      <Setting name="RxStreamTimerAccounting" value="20" />
+      <Setting name="Setting1" value="" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

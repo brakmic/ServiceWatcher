@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{2FCDEF1D-F84E-4A74-8D62-872FF0F689A7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{C06BE214-7355-4F01-A334-23AE3F51BB51}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AdvaricsWebAppsServiceWatcher-WAWS-dev.json = PublishScripts\Configurations\AdvaricsWebAppsServiceWatcher-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Advarics.WebApps.ServiceWatcher", "Advarics.WebApps.ServiceWatcher\Advarics.WebApps.ServiceWatcher.ccproj", "{AFF3D132-AD3E-4547-977C-D344CDB4CD12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceWatcherWebRole", "ServiceWatcherWebRole\ServiceWatcherWebRole.csproj", "{A286AD46-F7DA-4D33-AA9F-0B10C3684E2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFF3D132-AD3E-4547-977C-D344CDB4CD12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF3D132-AD3E-4547-977C-D344CDB4CD12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF3D132-AD3E-4547-977C-D344CDB4CD12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF3D132-AD3E-4547-977C-D344CDB4CD12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A286AD46-F7DA-4D33-AA9F-0B10C3684E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A286AD46-F7DA-4D33-AA9F-0B10C3684E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A286AD46-F7DA-4D33-AA9F-0B10C3684E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A286AD46-F7DA-4D33-AA9F-0B10C3684E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C06BE214-7355-4F01-A334-23AE3F51BB51} = {2FCDEF1D-F84E-4A74-8D62-872FF0F689A7}
+	EndGlobalSection
+EndGlobal
