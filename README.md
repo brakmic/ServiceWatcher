@@ -2,9 +2,11 @@
 
 Service Watcher based on <a href="https://github.com/Reactive-Extensions/Rx.NET" target="_blank">Reactive Extensions</a>
 
-The code part that deals with Rx Observables is based on <a href="http://www.zerobugbuild.com/?p=230" target="_blank">this blog entry.</a>
+The code parts with Rx Observables are based on <a href="http://www.zerobugbuild.com/?p=230" target="_blank">this blog entry.</a>
 
 This solution runs in Azure Emulator and receives client heartbeats via POST-requests.
+
+We, at <a href="http://www.advarics.net" target="_blank">advarics GmbH</a>, use a similar version to control our remote Services in real-time.
 
 The ServiceWatcher utilizes a simple Database structure following the *Code First* workflow.
 
