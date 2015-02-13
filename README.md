@@ -40,8 +40,10 @@ To be informed about disconnected clients (that is, clients who are not sending 
 can set up an SMTP mail-server to deliver warning notices.
 
 **Developed at**
+
 <a href="http://www.advarics.net/" target="_blank">advarics GmbH</a>, Innsbruck (Austria)
-- Branch Office Bochum (Germany)
+
+Branch Office Bochum (Germany)
 
 **License**
 
