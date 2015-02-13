@@ -39,6 +39,10 @@ Stream named *WebShop*. If a stream has no explicit timeout set then the *RxStre
 To be informed about disconnected clients (that is, clients who are not sending heartbeats within an expected time frame) you
 can set up an SMTP mail-server to deliver warning notices.
 
+**Developed at**
+<a href="http://www.advarics.net/" target="_blank">advarics GmbH</a>, Innsbruck (Austria)
+- Branch Office Bochum (Germany)
+
 **License**
 
 MIT
